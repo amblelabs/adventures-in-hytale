@@ -1,20 +1,30 @@
 {
   "Group": "${group}",
-  "Name": "HytaleTemplatePlugin",
+  "Name": "AIHPlugin",
   "Version": "${version}",
-  "Description": "An awesome description for an awesome plugin.",
+  "Description": "Adventures In Hytale - a spinoff of the original Adventures In Time mod, bringing the TARDIS to Hytale!",
   "Authors": [
     {
-      "Name": "Name",
-      "Email": "email@example.com",
-      "Url": "https://example.com"
+      "Name": "AmbleLabs",
+      "Email": "contact@amblelabs.dev",
+      "Url": "https://amblelabs.dev"
+    },
+    {
+      "Name": "Loqor",
+      "Email": "loqor@amblelabs.dev",
+      "Url": "https://loqor.dev"
+    },
+    {
+      "Name": "DrTheodor",
+      "Email": "drtheodor@amblelabs.dev",
+      "Url": "https://theo.is-a.dev"
     }
   ],
-  "Website": "https://example.com",
+  "Website": "https://amblelabs.dev",
   "ServerVersion": "${hytale_version}",
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "Main": "com.example.hytaletemplate.HytaleTemplatePlugin"
+  "Main": "dev.loqor.hytaletest.AIHPlugin"
 }

@@ -8,4 +8,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "hytale-template"
+rootProject.name = "hytale-test"
