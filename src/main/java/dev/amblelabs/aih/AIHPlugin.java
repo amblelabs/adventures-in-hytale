@@ -11,6 +11,14 @@ import java.util.logging.Level;
 
 public class AIHPlugin extends JavaPlugin {
 
+    // Might be unnecessary, but I'm not familiar with hytale modding yet
+    public static final String MODID = "aih";
+
+    // Might be unnecessary too
+    public static String of(String path) {
+        return MODID + ":" + path;
+    }
+
     public static HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
 
     public AIHPlugin(@Nonnull JavaPluginInit init) {
@@ -26,6 +34,6 @@ public class AIHPlugin extends JavaPlugin {
 
     @Override
     protected void setup() {
-        LOGGER.at(Level.INFO).log("Hello from the template!");
+        LOGGER.at(Level.INFO).log("AIH has been initialised.");
     }
 }
