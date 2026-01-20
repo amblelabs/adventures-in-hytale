@@ -5,11 +5,15 @@ import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.Universe;
 import com.hypixel.hytale.server.core.universe.world.WorldConfig;
+import dev.amblelabs.aih.core.ComponentTypeRegistry;
+import dev.amblelabs.aih.core.SystemRegistry;
 
 import javax.annotation.Nonnull;
 import java.util.logging.Level;
 
 public class AIHPlugin extends JavaPlugin {
+
+    protected static AIHPlugin instance;
 
     // Might be unnecessary, but I'm not familiar with hytale modding yet
     public static final String MODID = "aih";
@@ -17,6 +21,10 @@ public class AIHPlugin extends JavaPlugin {
     // Might be unnecessary too
     public static String of(String path) {
         return MODID + ":" + path;
+    }
+
+    public static AIHPlugin get() {
+        return instance;
     }
 
     public static HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
@@ -34,6 +42,10 @@ public class AIHPlugin extends JavaPlugin {
 
     @Override
     protected void setup() {
+        instance = this;
         LOGGER.at(Level.INFO).log("AIH has been initialised.");
+        ComponentTypeRegistry.registerComponents(this.getChunkStoreRegistry()); // For block components
+        SystemRegistry.registerSystems(this.getChunkStoreRegistry()); // For the TARDIS ECS
+
     }
 }
