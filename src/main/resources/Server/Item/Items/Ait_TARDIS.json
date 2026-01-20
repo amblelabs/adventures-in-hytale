@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Deco_TARDIS_Full.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Ait_TARDIS.png",
+  "Categories": [
+    "Blocks.Portals"
+  ],
+  "Set": "",
+  "ResourceTypes": [
+    {
+      "Id": "Bone"
+    }
+  ],
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Scale": 0.5,
+  "Light": {
+    "Radius": 0,
+    "Color": "#000"
+  },
+  "ClipsGeometry": false,
+  "InteractionConfig": {
+    "DisplayOutlines": true
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      0,
+      231,
+      0
+    ],
+    "Translation": [
+      1,
+      -52
+    ]
+  },
+  "ItemLevel": 15,
+  "MaxStack": 1,
+  "Model": "Resources/Blocks/hudolinHytale.blockymodel",
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Flags": {},
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Bone",
+    "ParticleColor": "#1b236b",
+    "CustomModel": "Resources/Blocks/hudolinHytale.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Blocks/classic_hudolin.png"
+      }
+    ],
+    "Opacity": "Semitransparent",
+    "RequiresAlphaBlending": true,
+    "CustomModelScale": 1.35,
+    "TextureSideMask": "Resources/Blocks/classic_hudolin.png",
+    "FlipType": "Symmetric",
+    "CubeShadingMode": "Standard",
+    "Light": {
+      "Radius": 1,
+      "Color": "#157"
+    },
+    "MovementSettings": {
+      "IsClimbable": false
+    },
+    "IsDoor": false,
+    "AllowsMultipleUsers": false,
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "AlwaysHidden",
+      "AllowRotationKey": false
+    }
+  }
+}
