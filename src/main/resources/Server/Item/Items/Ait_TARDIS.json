@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Deco_TARDIS_Full.name"
+    "Name": "server.items.tardis_block.name"
   },
   "Icon": "Icons/ItemsGenerated/Ait_TARDIS.png",
   "Categories": [
