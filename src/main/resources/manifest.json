@@ -26,5 +26,5 @@
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "Main": "dev.loqor.hytaletest.AIHPlugin"
+  "Main": "dev.loqor.aih.AIHPlugin"
 }

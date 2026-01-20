@@ -1,4 +1,4 @@
-package dev.loqor.hytaletest;
+package dev.amblelabs.aih;
 
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
